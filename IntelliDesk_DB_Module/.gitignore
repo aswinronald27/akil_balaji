@@ -1,0 +1,25 @@
+# ========================================================
+# IntelliDesk Database Module - .gitignore
+# ========================================================
+
+# Environment Variables & DB Passwords
+.env
+.env.local
+!.env.example
+
+# Database Backups & Dumps
+*.sql.bak
+*.dump
+*.tar
+*.gz
+
+# Logs
+logs/
+*.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

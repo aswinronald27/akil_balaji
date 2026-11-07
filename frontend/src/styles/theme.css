@@ -1,0 +1,130 @@
+:root {
+  /* Pure White Background Enterprise Theme */
+  --bg-primary: #ffffff;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f9fafb;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #ffffff;
+  --bg-hover: #f3f4f6;
+
+  --border-subtle: #e5e7eb;
+  --border-default: #d1d5db;
+  --border-focus: #2563eb;
+
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  --text-inverted: #ffffff;
+
+  /* Enterprise Blue */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #eff6ff;
+
+  --accent-cyan: #0284c7;
+  --accent-cyan-light: #f0f9ff;
+
+  --accent-purple: #7c3aed;
+  --accent-purple-light: #f5f3ff;
+
+  /* Status Colors */
+  --p1-color: #dc2626;
+  --p1-bg: #fef2f2;
+  --p1-border: #fecaca;
+
+  --p2-color: #d97706;
+  --p2-bg: #fffbeb;
+  --p2-border: #fde68a;
+
+  --p3-color: #0284c7;
+  --p3-bg: #f0f9ff;
+  --p3-border: #bae6fd;
+
+  --p4-color: #4b5563;
+  --p4-bg: #f9fafb;
+  --p4-border: #e5e7eb;
+
+  /* Incident Statuses */
+  --status-new: #0284c7;
+  --status-new-bg: #f0f9ff;
+  --status-investigating: #7c3aed;
+  --status-investigating-bg: #f5f3ff;
+  --status-waiting: #d97706;
+  --status-waiting-bg: #fffbeb;
+  --status-resolved: #16a34a;
+  --status-resolved-bg: #f0fdf4;
+  --status-reopened: #dc2626;
+  --status-reopened-bg: #fef2f2;
+
+  /* Radius & Soft Clean Shadows */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.07);
+  --shadow-glow-cyan: none;
+  --shadow-glow-primary: none;
+
+  --sidebar-width: 250px;
+  --sidebar-collapsed-width: 70px;
+  --navbar-height: 60px;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --bg-surface: #1e293b;
+  --bg-surface-elevated: #243044;
+  --bg-hover: #334155;
+
+  --border-subtle: #334155;
+  --border-default: #475569;
+  --border-focus: #3b82f6;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-inverted: #0f172a;
+
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-light: rgba(59, 130, 246, 0.15);
+
+  --accent-cyan: #38bdf8;
+  --accent-cyan-light: rgba(56, 189, 248, 0.15);
+
+  --p1-color: #f87171;
+  --p1-bg: rgba(239, 68, 68, 0.15);
+  --p1-border: rgba(239, 68, 68, 0.35);
+
+  --p2-color: #fbbf24;
+  --p2-bg: rgba(245, 158, 11, 0.15);
+  --p2-border: rgba(245, 158, 11, 0.35);
+
+  --p3-color: #38bdf8;
+  --p3-bg: rgba(56, 189, 248, 0.15);
+  --p3-border: rgba(56, 189, 248, 0.35);
+
+  --p4-color: #94a3b8;
+  --p4-bg: rgba(148, 163, 184, 0.15);
+  --p4-border: rgba(148, 163, 184, 0.35);
+
+  --status-new: #38bdf8;
+  --status-new-bg: rgba(56, 189, 248, 0.15);
+  --status-investigating: #c084fc;
+  --status-investigating-bg: rgba(192, 132, 252, 0.15);
+  --status-waiting: #fbbf24;
+  --status-waiting-bg: rgba(251, 191, 36, 0.15);
+  --status-resolved: #4ade80;
+  --status-resolved-bg: rgba(74, 222, 128, 0.15);
+  --status-reopened: #f87171;
+  --status-reopened-bg: rgba(248, 113, 113, 0.15);
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}

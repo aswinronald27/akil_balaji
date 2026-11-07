@@ -1,0 +1,29 @@
+{
+  "name": "intellidesk-backend",
+  "version": "1.0.0",
+  "description": "Production REST API Backend for IntelliDesk Smart IT Incident Intelligence Platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.9",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.23.1"
+  },
+  "keywords": [
+    "incident-management",
+    "sre",
+    "root-cause-analysis",
+    "it-ops",
+    "intellidesk"
+  ],
+  "author": "IntelliDesk Engineering",
+  "license": "MIT"
+}
